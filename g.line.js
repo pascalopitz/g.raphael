@@ -115,6 +115,12 @@
             kx = (width - gutter * 2) / ((maxx - minx) || 1),
             ky = (height - gutter * 2) / ((maxy - miny) || 1);
 
+            chart.minx = minx;
+            chart.maxx = maxx;
+            chart.miny = miny;
+            chart.maxy = maxy;
+
+            chart.paper = paper;
  /*\
  * linechart.axis
  [ object ]
